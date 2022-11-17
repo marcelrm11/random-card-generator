@@ -1,6 +1,6 @@
 # Random Card Generator with Vanilla JS
 
-Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello) for information about the original boilerplate.
+*Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello) for information about the original boilerplate.*
 
 ## Installation
 
