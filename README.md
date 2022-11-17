@@ -4,7 +4,7 @@
 
 ## Gitpod
 
-To open this project online, you can use [Gitpod](https://gitpod.io/#https://github.com/marcelrm11/random-card-generator.git)
+To open this project online, you can use [gitpod](https://gitpod.io/#https://github.com/marcelrm11/random-card-generator.git).
 
 ## Installation
 

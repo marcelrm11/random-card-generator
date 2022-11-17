@@ -17,15 +17,17 @@ const numbers = [
 ];
 
 window.onload = function() {
-  //write your code here
-
   setNumber(numbers);
   setSuit(suits);
+  document.querySelector(".my-card").addEventListener("click", () => {
+    setNumber(numbers);
+    setSuit(suits);
+  });
 };
 
 function setSuit(suits) {
-  //suite function
   let suit = suits[randomPick(suits)];
+  document.querySelector(".my-card").style.color = "black";
   document.querySelectorAll(".suit").forEach(elm => {
     elm.innerHTML = suit;
     if (suit == "♥" || suit == "♦") {
@@ -34,10 +36,8 @@ function setSuit(suits) {
   });
 }
 function setNumber(numbers) {
-  //number function
   document.querySelector(".number").innerHTML = numbers[randomPick(numbers)];
 }
 function randomPick(array) {
-  //random function
   return Math.floor(Math.random() * array.length);
 }
