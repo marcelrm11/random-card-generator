@@ -18,9 +18,20 @@ const numbers = [
 
 window.onload = function() {
   newCard();
+  let timer = 10;
+  document.querySelector("#timer").textContent = timer;
   document.querySelector(".button-29").addEventListener("click", () => {
     newCard();
+    timer = 11;
   });
+  setInterval(() => {
+    timer--;
+    document.querySelector("#timer").textContent = timer;
+    if (timer == 0) {
+      timer = 11;
+      newCard();
+    }
+  }, 1000);
 };
 
 function newCard() {
