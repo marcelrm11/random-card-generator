@@ -2,6 +2,10 @@
 
 *Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello) for information about the original boilerplate.*
 
+## Gitpod
+
+To open this project online, you can use [Gitpod](https://gitpod.io/#https://github.com/marcelrm11/random-card-generator.git)
+
 ## Installation
 
 ```
@@ -11,5 +15,3 @@ $ npm install
 # Build
 $ npm run start
 ```
-
-https://gitpod.io/#https://github.com/4GeeksAcademy/vanillajs-hello.git
