@@ -7,9 +7,7 @@ Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello)
 ```
 # Install the npm packages first:
 $ npm install
-```
 
-```
 # Build
 $ npm run start
 ```
