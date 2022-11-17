@@ -17,13 +17,16 @@ const numbers = [
 ];
 
 window.onload = function() {
-  setNumber(numbers);
-  setSuit(suits);
-  document.querySelector(".my-card").addEventListener("click", () => {
-    setNumber(numbers);
-    setSuit(suits);
+  newCard();
+  document.querySelector(".button-29").addEventListener("click", () => {
+    newCard();
   });
 };
+
+function newCard() {
+  setNumber(numbers);
+  setSuit(suits);
+}
 
 function setSuit(suits) {
   let suit = suits[randomPick(suits)];
