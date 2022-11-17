@@ -5,7 +5,6 @@ Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello)
 ### Manual Installation
 
 1) Install the npm packages first:
-
 ```
 $ npm install
 ```
