@@ -2,14 +2,14 @@
 
 Refer to [Vanilla JS template](https://github.com/4GeeksAcademy/vanillajs-hello) for information about the original boilerplate.
 
-### Manual Installation
+## Installation
 
-1) Install the npm packages first:
 ```
+# Install the npm packages first:
 $ npm install
 ```
 
-2) Build
 ```
+# Build
 $ npm run start
 ```
