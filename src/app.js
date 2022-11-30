@@ -27,7 +27,7 @@ window.onload = function() {
   setInterval(() => {
     timer--;
     document.querySelector("#timer").textContent = timer;
-    if (timer == 0) {
+    if (timer === 0) {
       timer = 11;
       newCard();
     }
@@ -44,7 +44,7 @@ function setSuit(suits) {
   document.querySelector(".my-card").style.color = "black";
   document.querySelectorAll(".suit").forEach(elm => {
     elm.innerHTML = suit;
-    if (suit == "♥" || suit == "♦") {
+    if (suit === "♥" || suit === "♦") {
       document.querySelector(".my-card").style.color = "red";
     }
   });
